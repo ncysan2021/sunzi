@@ -4,6 +4,9 @@ defaultContentLanguage = 'zh-cn'
 title = 'AI 孙子兵法'
 theme = 'PaperMod'
 
+# 指定首页需要显示的内容目录（解决首页空白）
+mainSections = ["posts", "quotes"]
+
 [menus]
   [[menus.footer]]
     name = "企业蓝图"
@@ -33,5 +36,5 @@ theme = 'PaperMod'
 [params]
   [params.label]
     text = "AI 孙子兵法"
-    icon = "/images/logo.png"   # 建议改成本地图片
-    iconHeight = 35
+    # icon = "/images/logo.png"   # 已注释，暂不显示 Logo
+    # iconHeight = 35             # 已注释
