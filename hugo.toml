@@ -5,7 +5,8 @@ title = 'AI 孙子兵法'
 theme = 'PaperMod'
 
 # 指定首页需要显示的内容目录（解决首页空白）
-mainSections = ["posts", "quotes"]
+# 注意：目前只有 quotes 目录，去掉不存在的 posts
+mainSections = ["quotes"]
 
 [menus]
   [[menus.footer]]
