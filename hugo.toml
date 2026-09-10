@@ -1,4 +1,19 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://sunzi2026.pages.dev/' # 换成你的 Cloudflare 实际网址（末尾保留斜杠 /）
+languageCode = 'zh-cn'               # Hugo 标准参数名是 languageCode，不是 locale
+title = 'AI 孙子兵法'                # 替换为你的实际网站名称
 theme = 'PaperMod'
+
+[[menu.main]]
+  name = "关于我们"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "联系我们"
+  url = "/contact/"
+  weight = 20
+
+[[menu.main]]
+  name = "隐私政策"
+  url = "/privacy/"
+  weight = 30
