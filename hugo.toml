@@ -3,20 +3,31 @@ languageCode = 'zh-cn'               # Hugo 标准参数名是 languageCode，�
 title = 'AI 孙子兵法'                # 替换为你的实际网站名称
 theme = 'PaperMod'
 
-[[menu.main]]
-  name = "关于我们"
-  url = "/about/"
+# 侧边栏/页脚单页菜单示例
+[[menus.footer]]
+  name = "企业蓝图"
+  url = "/enterprise-blueprint/"
   weight = 10
 
-[[menu.main]]
-  name = "联系我们"
-  url = "/contact/"
+[[menus.footer]]
+  name = "品牌故事"
+  url = "/brand-story/"
   weight = 20
 
-[[menu.main]]
-  name = "隐私政策"
-  url = "/privacy/"
+[[menus.footer]]
+  name = "考试局"
+  url = "/examination-board/"
   weight = 30
+
+[[menus.footer]]
+  name = "隐私政策"
+  url = "/privacy-policy/"
+  weight = 40
+
+[[menus.footer]]
+  name = "联系我们"
+  url = "/contact/"
+  weight = 50
 
 [params]
   [params.label]
