@@ -17,3 +17,9 @@ theme = 'PaperMod'
   name = "隐私政策"
   url = "/privacy/"
   weight = 30
+
+[params]
+  [params.label]
+    text = "AI 孙子兵法"   # 如果 Logo 图片内已包含文字，可设为 "" 只展示图片
+    icon = "https://aisunzibingfa.com/wp-content/uploads/2025/01/cropped-ai-sun-zi-bing-fa-logo-1100-500-png.png"
+    iconHeight = 35        # 控制 Logo 显示高度（像素）
